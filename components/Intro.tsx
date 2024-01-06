@@ -59,9 +59,9 @@ const Intro = () => {
         animate={{ y: 0, opacity: 1 }}
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
       >
-        <span className="font-bold">Hello, I'm Kapil.</span> I'm a{" "}
+        <span className="font-bold">Hello, I&#39;m Kapil.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">4.5 years</span> of experience. I am
+        <span className="font-bold">4.5 years</span> of experience. I&#39;m
         passionate about crafting{" "}
         <span className="italic">high-quality sites and applications</span>. My
         focus is <span className="underline">React (Next.js)</span> and{" "}

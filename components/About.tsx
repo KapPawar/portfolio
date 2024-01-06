@@ -20,7 +20,7 @@ const About = () => {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I'm currently pursuing MS in{" "}
+        I&#39;m currently pursuing MS in{" "}
         <span className="font-medium">Computer Science.</span>{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
@@ -29,16 +29,17 @@ const About = () => {
         <span className="font-medium">
           React, Next.js, Node.js, MongoDB, and Android Development
         </span>
-        . I am also familiar with TypeScript, Prisma and Python. I am always
-        looking to learn new technologies. I am currently looking for an{" "}
-        <span className="font-medium">Internship</span> as a Software Engineer.
+        . I&#39;m also familiar with TypeScript, Prisma and Python. I&#39;m
+        always looking to learn new technologies. I&#39;m currently looking for
+        an <span className="font-medium">Internship</span> as a Software
+        Engineer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="italic">When I&#39;m not coding</span>, I enjoy playing
         video games and exploring new places. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning how to play the guitar.
+        <span className="font-medium">learning new things</span>. I&#39;m
+        currently learning how to play the guitar.
       </p>
     </motion.section>
   );
