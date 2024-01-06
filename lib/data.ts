@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "MS Computer Science",
+    location: "University of Texas at Arlington | Texas, US",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I'm currently pursuing my masters in computer science. I'm expected to graduate in May 2025",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023 - Current",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Senior Software Engineer | Full-Stack Developer",
+    location: "Accenture | Munich, Germany",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a full-stack developer on stack including Next.js,React, TypeScript, Node.js, GraphQL, PostgreSQL, and Azure. I also led development of a new e-commerce platform for the company.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer | Full-Stack Developer",
+    location: "Accenture | Mumbai, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I worked on REST APIs for web applications using Node.js, Express, and MongoDB. I also worked on front-end using React, Redux, and Tailwind.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2018 - 2021",
   },
 ] as const;
 
@@ -77,7 +77,7 @@ export const projectsData = [
     imageUrl: eventHub,
   },
   {
-    title: "Porfolio",
+    title: "Portfolio",
     description:
       "Dynamic and visually captivating portfolio web app showcasing my skills, experience, and interests.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer Motion"],
@@ -112,4 +112,9 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+  "Azure",
+  "CI/CD",
+  "Java",
+  "Kotlin",
+  "C/C++",
 ] as const;

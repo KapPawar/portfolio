@@ -11,7 +11,7 @@ const SectionDivider = () => {
         delay: 0.125,
       }}
       className="bg-gray-200 my-24 h-16 w-1
-    rounded-full hidden sm:block"
+    rounded-full hidden sm:block dark:bg-opacity-20"
     ></motion.div>
   );
 };

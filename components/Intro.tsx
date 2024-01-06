@@ -6,20 +6,12 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/ActiveSectionContextProvider";
-import { useInView } from "react-intersection-observer";
 
 const Intro = () => {
-  const { setActiveSection } = useActiveSectionContext();
-  const { ref, inView } = useInView({
-    threshold: 0.5,
-  });
-
-  useEffect(() => {
-    if (inView) {
-      setActiveSection("Home");
-    }
-  }, [inView, setActiveSection]);
+  const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
       ref={ref}
@@ -89,6 +81,10 @@ const Intro = () => {
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2
           rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950
           active:scale-105 transition"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
@@ -96,7 +92,8 @@ const Intro = () => {
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2
           rounded-full outline-none focus:scale-110 hover:scale-110 
-          active:scale-105 transition cursor-pointer border border-black/10"
+          active:scale-105 transition cursor-pointer borderblack
+          dark:bg-white/10 dark:text-white/60"
           href="/assets/Kapil_Shyam_Pawar_Resume.pdf"
           download
         >
@@ -106,7 +103,7 @@ const Intro = () => {
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2
           rounded-full focus:scale-[1.15]  hover:scale-[1.15] hover:text-gray-950
-          active:scale-105 transition cursor-pointer border border-black/10"
+          active:scale-105 transition cursor-pointer borderblack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/kapilshyampawar/"
           target="_blank"
         >
@@ -115,7 +112,7 @@ const Intro = () => {
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2
           rounded-full text-[1.35rem] focus:scale-[1.15]  hover:scale-[1.15] hover:text-gray-950 
-          active:scale-105 transition cursor-pointer border border-black/10"
+          active:scale-105 transition cursor-pointer borderblack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/KapPawar"
           target="_blank"
         >
