@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "I worked as a full-stack developer on stack including Next.js,React, TypeScript, Node.js, GraphQL, PostgreSQL, and Azure. I also led development of a new e-commerce platform for the company.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2023",
+    date: "2022 - 2023",
   },
   {
     title: "Software Engineer | Full-Stack Developer",
@@ -56,7 +56,7 @@ export const experiencesData = [
     description:
       "I worked on REST APIs for web applications using Node.js, Express, and MongoDB. I also worked on front-end using React, Redux, and Tailwind.",
     icon: React.createElement(FaReact),
-    date: "2018 - 2021",
+    date: "2018 - 2022",
   },
 ] as const;
 
