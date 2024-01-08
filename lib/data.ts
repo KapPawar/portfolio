@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import eventHub from "@/public/assets/eventHub.png";
 import portfolio from "@/public/assets/portfolio.png";
+import todot from "@/public/assets/todot.png";
 import daa from "@/public/assets/daa.png";
 
 export const links = [
@@ -62,6 +63,23 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "ToDot",
+    description:
+      "An AI powered to-do list web app that helps you manage your tasks, with built-in chatbot, that answers questions related to your tasks.",
+    tags: [
+      "OpenAI",
+      "Next.js",
+      "Pinecone",
+      "Vector Embedding",
+      "MongoDB",
+      "Prisma",
+      "Tailwind",
+      "Clerk",
+      "Shadcn",
+    ],
+    imageUrl: todot,
+  },
+  {
     title: "EventHub",
     description:
       "A public web app for organizing tech events. Users can create their own events, and also purchase events hosted by other users.",
@@ -77,18 +95,18 @@ export const projectsData = [
     imageUrl: eventHub,
   },
   {
+    title: "Analysis of Sorting Algorithms",
+    description:
+      "A Python based GUI wherein users can select various sorting algorithms, and compare their runtimes.",
+    tags: ["Python", "Tkinter", "Sorting Algorithms", "MatPlotLib"],
+    imageUrl: daa,
+  },
+  {
     title: "Portfolio",
     description:
       "Dynamic and visually captivating portfolio web app showcasing my skills, experience, and interests.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Framer Motion"],
     imageUrl: portfolio,
-  },
-  {
-    title: "Analysis of Sorting Algorithms",
-    description:
-      "A Python based GUI wherein users can select various sorting algorithms, and compare their runtimes.",
-    tags: ["Python"],
-    imageUrl: daa,
   },
 ] as const;
 
