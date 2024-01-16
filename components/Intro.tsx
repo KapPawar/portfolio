@@ -61,7 +61,7 @@ const Intro = () => {
       >
         <span className="font-bold">Hello, I&#39;m Kapil.</span> I&#39;m a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">4.5 years</span> of experience. I&#39;m
+        <span className="font-bold">5 years</span> of experience. I&#39;m
         passionate about crafting{" "}
         <span className="italic">high-quality sites and applications</span>. My
         focus is <span className="underline">React (Next.js)</span> and{" "}
