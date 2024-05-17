@@ -65,7 +65,7 @@ const Intro = () => {
         passionate about crafting{" "}
         <span className="italic">high-quality sites and applications</span>. My
         focus is <span className="underline">React (Next.js)</span> and{" "}
-        <span className="underline">Python</span>.
+        <span className="underline">Machine Learning</span>.
       </motion.h1>
       <motion.div
         initial={{ y: 100, opacity: 0 }}
